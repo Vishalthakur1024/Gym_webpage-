@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW GYM </title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-size: 40px;
+            color: rgb(65, 10, 62);
+        }
+
+        .ul {
+            margin: 0%;
+            padding: 0%;
+            list-style: none;
+            height: 100px;
+            /* background-color: brown; */
+            border: 2px solid black;
+        }
+
+        .nav {
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 100px;
+            position: fixed;
+        }
+
+        .background-image {
+            background-image: url(2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+
+        p {
+            /* color: white; */
+            color: black;
+            font-size: 70px;
+            /* border: 2px solid white; */
+            padding: 65px 250px;
+            text-align: center;
+            text-decoration: underline;
+
+
+
+        }
+
+        ul {
+            float: left;
+
+        }
+
+        ul :hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        li {
+            display: block;
+            list-style: none;
+        }
+
+        a {
+            margin: 0px 255px;
+            text-transform: uppercase;
+            padding: 0px 70px;
+            color: rgb(79, 68, 6);
+            text-decoration: none;
+            font-size: 45px;
+            line-height: 95px;
+            /* top: 50px; */
+            /* text-transform: uppercase;
+            padding: 0px 30px;
+            color: rgb(79, 68, 6);
+            text-decoration: none;
+            font-size: 35px; */
+        }
+
+        H5 {
+
+
+            margin: 0px 0px;
+
+            text-decoration: line-through;
+            color: #701b83;
+            font-size: 65px;
+            text-align: center;
+
+            /* margin: 0px 0px;
+            float: right;
+            text-decoration: line-through;
+            color: blue; */
+        }
+
+        .leftbox {
+            display: inline-block;
+            position: absolute;
+            left: 0px;
+            top: 5px;
+        }
+
+        .leftbox div {
+            /* padding: 0px 0px;
+            margin: 0px;
+            height: 2px;
+            width: 2px; */
+            text-align: center;
+            font-size: 40px;
+            line-height: 20px;
+        }
+
+        .leftbox img {
+            width: 250px;
+        }
+
+        button {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: inline-block;
+        }
+
+        .btn1 {
+            float: right;
+            top: 9px;
+            margin: 46px 11px;
+            padding: 9px 12px;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border: 2px solid black;
+        }
+
+        .btn {
+
+            float: right;
+            top: 9px;
+            margin: 46px 103px;
+            padding: 9px 6px;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border: 2px solid black;
+            /* float: right;
+                top: 0px;
+                margin: 0px 0px;
+                padding: 0px 0px;
+                border-radius: 15px;
+                background-color: black;
+                color: white;
+                font-size: 35px;
+                cursor: pointer;
+                border: 2px solid black; */
+        }
+
+        .btn1:hover {
+            background-color: red;
+        }
+
+        .btn:hover {
+            background-color: red;
+        }
+
+        .container {
+            float: right;
+            display: block;
+            margin: 400px 0px;
+            padding: 40px 0px;
+            /* top: 100px; */
+            right: 100px;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            line-height: 126px;
+        }
+
+        input {
+            font-size: 15px;
+            display: block;
+            color: darkred;
+            /* border-radius: 6px; */
+            /* line-height: 10px; */
+            border-radius: 50px;
+            line-height: 20px;
+
+        }
+        .bt1 {
+            
+
+            float: right;
+            top: 360px;
+            margin: 398px 158px;
+            padding: 9px 30px;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border: 2px solid black;
+        }
+        .bt1:hover {
+            background-color: red;
+        }
+
+
+        .bt2 {
+            
+
+                float: right;
+                top: 360px;
+                margin: 398px 20px;
+                padding: 9px 30px;
+                border-radius: 15px;
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                cursor: pointer;
+                border: 2px solid black;
+            }
+            .bt2:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-image">
+        <div class="leftbox">
+            <img src="6.png" alt="">
+            <div> VISHAL FITNESS</div>
+        </div>
+
+        <H5 class="h5"> PHYSIC U DESIRE WE DELIVER</H5>
+        <nav class="nav">
+            <div class="logo">
+                <p class="navbar">FITNESS WORLD</p>
+
+            </div>
+
+
+            <ul class="ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">GET DIET CHART</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">BMI CALCULATOR</a></li>
+                <li><a href="#">VIEW PLANS</a></li>
+                <li><a href="#">ADDRESS</a></li>
+            </ul>
+        </nav>
+        <div class="button">
+            <button class="btn">SIGNUP</button><button class="btn1">LOGIN</button>
+        </div>
+
+        <div class="container">
+            <h3>ENROLL NOW!!!</h3>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER UR NAME">
+                    <input type="text" placeholder="ENTER UR GENDER">
+                    <input type="text" placeholder="ENTER UR ADDRESS">
+                    <input type="text" placeholder="ENTER UR PHONE NO.">
+                    <input type="text" placeholder="ENTER UR GOAL">
+                    <button class="bt1">SUMBIT</button><button class="bt2">RESET</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
